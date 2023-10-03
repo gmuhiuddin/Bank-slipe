@@ -52,7 +52,7 @@ button.style.borderColor = 'white'
 button.style.boxShadow = '1px 1px 3px white'
 
 
-}else if(body[0].style.backgroundColor == 'black'){
+}else{
     body[0].style.backgroundColor = 'white';
 
     let slipeDiv = document.getElementsByClassName('slipe-div'); 
