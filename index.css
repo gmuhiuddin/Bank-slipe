@@ -1,17 +1,20 @@
 body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.main-div{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 629px;
     width: 100vw;
-    margin: 0px;
-    padding: 0px;
 }
 .slipe-div{
     width:299px;
     height: 355px;
     background-color: white;
-    border: 2px solid black;
+    border: 2.5px solid black;
 }
 .headings{
     border: 3.4px solid black;
@@ -42,4 +45,14 @@ body{
 }
 .time{
     padding-left:145px ;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+#theme-changer-btn{
+    width: 199px;
+    height: 29px;
+    font-size: 17px;
+    background-color: white;
 }
