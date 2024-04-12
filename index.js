@@ -59,4 +59,4 @@ function themeChanger() {
         button.style.borderColor = 'black'
 
     }
-}
+};
